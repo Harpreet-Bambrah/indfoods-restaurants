@@ -1,0 +1,201 @@
+
+
+                /* General classs */
+body{
+    scroll-behavior: smooth;
+}
+.bg-primary{
+    background-color: #3D464D !important;
+}
+
+.bg-danger{
+    background-color: #E90E16 !important
+}
+
+
+.text-color1{
+    color:#E90E16;
+}
+
+.text-color2{
+    color: #3D464D;
+}
+
+.border-color{
+    border-color: #E90E16;
+}
+
+
+.border-dark{
+    border-color: #3D464D;
+   
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 99;
+  
+
+}
+
+#header{
+    background-color: #3D464D;
+}
+            /* navbar class */
+
+.navbar-brand{
+    color: #ffffff;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+.nav-link:hover{
+    color: #E90E16;
+    background-color: #3d464d;
+}
+
+
+
+        /* section-2  */
+
+
+
+.s1-header-cont::before{
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 18px;
+    width: 100px;
+    height: 5px;
+    background: #E90E16;
+}
+
+
+.hou-spec-cont:hover img{
+    transform: scale(1.2);
+    transition: all 1s;
+    
+}
+
+
+.hou-spec-cont:hover .s2-img-hover{
+    display: block;
+    padding-top: 40%;
+}
+
+
+.s2-img-hover{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #d2e0eb8e;
+    text-align: center;
+    color: #E90E16;
+}
+
+
+.hou-spec-cont:hover .s2-price-cont{
+    background-color: #E90E16 !important;
+}
+
+.hou-spec-cont:hover .order-cart{
+    color: #E90E16 !important;
+    background-color: #ffffff !important;
+}
+
+
+
+            /* section-3 newsletter  */
+ 
+.form-control1{
+    width: 60%;
+    display: inline-block;
+}
+
+
+.btn-primary{
+    background-color: #3D464D;
+    border: 2px solid #ffffff;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-color: #3d464d;
+    --bs-btn-hover-border-color: #ffffff;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+      /* section-5 reserve a table  */
+
+.input-width{
+    width: 45%;
+    display: inline-block;
+}
+
+.s5-rt-img1{
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+}
+
+.s5-rt-img1:hover img{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.s5-rt-img2{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    overflow: hidden;
+}
+
+
+.s5-rt-img2:hover img{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+.s5-rt-div1{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    height: 320px;
+    border: 30px solid darkred;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+        /* section-9 blog  */
+
+
+.s9-blog-abst-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-image:linear-gradient(transparent 40%,#515155c2 60% ) ;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+}      
